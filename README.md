@@ -1,16 +1,23 @@
-# 🗃️ Cachito
+# Cachito
+
+![GitHub go.mod Go version (subdirectory of monorepo)](https://img.shields.io/github/go-mod/go-version/achetronic/cachito)
+![GitHub](https://img.shields.io/github/license/achetronic/cachito)
+
+![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCeSb3yfsPNNVr13YsYNvCAw?label=achetronic&link=http%3A%2F%2Fyoutube.com%2Fachetronic)
+![GitHub followers](https://img.shields.io/github/followers/achetronic?label=achetronic&link=http%3A%2F%2Fgithub.com%2Fachetronic)
+![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/achetronic?style=flat&logo=twitter&link=https%3A%2F%2Ftwitter.com%2Fachetronic)
 
 **Cachito** is a collection of ready-to-use, thread-safe cache algorithms for Go with customizable handlers and metadata support. 
 Built with simplicity and extensibility in mind.
 
 ## ✨ Features
 
-- 🔒 **Thread-safe** implementations
-- 🎯 **Customizable handlers** for insert, delete, access, and eviction events
-- 📊 **User-defined metadata** accessible in all handlers
-- 🚀 **Zero external dependencies**
-- 🧩 **Generic types** support (Go 1.18+)
-- 📝 **Comprehensive examples** for each algorithm
+- **Thread-safe** implementations
+- **Customizable handlers** for insert, delete, access, and eviction events
+- **User-defined metadata** accessible in all handlers
+- **Zero external dependencies**
+- **Generic types** support (Go 1.18+)
+- **Comprehensive examples** for each algorithm
 
 ## 🎯 Supported Algorithms
 
@@ -35,11 +42,11 @@ go get github.com/achetronic/cachito
 
 Detailed examples for each algorithm can be found in the `/examples` directory:
 
-- 📁 `/examples/lru/` - LRU cache examples
+- `/examples/lru/` - LRU cache examples
     - `based-on-count.go` - Size-based eviction
     - `based-on-disk.go`  - Disk-based eviction
-- 📁 `/examples/lfu/` - LFU cache examples (planned)
-- 📁 `/examples/ttl/` - TTL cache examples (planned)
+- `/examples/lfu/` - LFU cache examples (planned)
+- `/examples/ttl/` - TTL cache examples (planned)
 
 ## 🎛️ Handler System
 
